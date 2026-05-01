@@ -1,7 +1,7 @@
-Source: deepin-service-manager
+Source: velora-service-manager
 Section: admin
 Priority: optional
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends:  debhelper (>= 11),
  pkg-config,
  cmake,
@@ -10,8 +10,8 @@ Build-Depends:  debhelper (>= 11),
  qt6-tools-dev,
  libsystemd-dev,
  libdtk6core-dev
-Standards-Version: 4.1.3
-Homepage: https://github.com/linuxdeepin
+Standards-Version: 4.5.0
+Homepage: https://github.com/LingmoOS/velora-service-manager
 
 Package: deepin-service-manager
 Architecture: any
