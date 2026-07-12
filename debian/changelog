@@ -1,4 +1,4 @@
-velora-service-manager (1.0.23.lingmo.1) unstable; urgency=medium
+lingmo-service-manager (1.0.23.lingmo.1) unstable; urgency=medium
 
   * Lingmo namespace migration.
 
