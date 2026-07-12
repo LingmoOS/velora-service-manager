@@ -36,14 +36,14 @@ int main(int argc, char *argv[])
     } else {
         a = new QGuiApplication(argc, argv);
     }
-    a->setApplicationName("org.deepin.service.manager");
+    a->setApplicationName("org.lingmo.service.manager");
 
     Dtk::Core::DLogManager::registerConsoleAppender();
     Dtk::Core::DLogManager::registerJournalAppender();
     a->setApplicationVersion(VERSION);
 
     QCommandLineOption groupOption({ { "g", "group" }, "eg:core", "group name" });
-    QCommandLineOption nameOption({ { "n", "name" }, "eg:org.deepin.demo", "service name" });
+    QCommandLineOption nameOption({ { "n", "name" }, "eg:org.lingmo.demo", "service name" });
     QCommandLineOption elfQtVerCheckOption("elf-qt-version-check", "service manager plugin so <path>", "path");
     QCommandLineParser parser;
     parser.setApplicationDescription("deepin service plugin loader");

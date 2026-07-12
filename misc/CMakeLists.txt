@@ -83,5 +83,5 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${LIB_NAME}.pc DESTINATION ${CMAKE_INS
 configure_file(${LIB_NAME}Config.cmake.in ${LIB_NAME}Config.cmake @ONLY)
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${LIB_NAME}Config.cmake DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${LIB_NAME})
 # debug config file
-install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-debug-config/org.deepin.service.manager.json DESTINATION ${CMAKE_INSTALL_DATADIR}/deepin-debug-config/deepin-debug-config.d)
-install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-log-config/org.deepin.service.manager.json DESTINATION ${CMAKE_INSTALL_DATADIR}/deepin-log-viewer/deepin-log.conf.d)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-debug-config/org.lingmo.service.manager.json DESTINATION ${CMAKE_INSTALL_DATADIR}/deepin-debug-config/deepin-debug-config.d)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/deepin-log-config/org.lingmo.service.manager.json DESTINATION ${CMAKE_INSTALL_DATADIR}/deepin-log-viewer/deepin-log.conf.d)

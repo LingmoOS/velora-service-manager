@@ -1,4 +1,4 @@
-Source: velora-service-manager
+Source: lingmo-service-manager
 Section: admin
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
@@ -11,26 +11,26 @@ Build-Depends:  debhelper (>= 11),
  libsystemd-dev,
  libdtk6core-dev
 Standards-Version: 4.5.0
-Homepage: https://github.com/LingmoOS/velora-service-manager
+Homepage: https://github.com/LingmoOS/lingmo-service-manager
 
-Package: deepin-service-manager
+Package: lingmo-service-manager
 Architecture: any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends}
 Recommends:
- dde-services
+ lingmo-services
 Description: deepin desktop-environment - service manager frame
  Load system plug-ins for unified management
 
-Package: libdeepin-service-framework-dev
+Package: liblingmo-service-framework-dev
 Architecture: any
 Depends:
  ${misc:Depends},
- libdeepin-service-framework( =${binary:Version})
+ liblingmo-service-framework( =${binary:Version})
 Description: deepin desktop-environment - service frame for development
 
-Package: libdeepin-service-framework
+Package: liblingmo-service-framework
 Architecture: any
 Depends:
  ${shlibs:Depends},

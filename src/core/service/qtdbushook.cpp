@@ -135,10 +135,10 @@ int QTDBusHook(const QString &baseService, const QDBusMessage &msg)
     //        arguments << true << "sdvvv";
 
     //        QDBusMessage reply =
-    //        msg.createErrorReply("com.deepin.services.Nooooooo", "The method
+    //        msg.createErrorReply("com.lingmo.services.Nooooooo", "The method
     //        call 'Register()' is not supported");
     //        QDBusConnection::connectToBus(QDBusConnection::SessionBus,
-    //        "org.deepin.services.demo2").send(reply);
+    //        "org.lingmo.services.demo2").send(reply);
     //    }
 }
 
