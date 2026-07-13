@@ -1,9 +1,9 @@
 {
-    "name": "org.deepin.service.manager",
+    "name": "org.lingmo.service.manager",
     "group": "dde",
     "submodules": [
         {
-            "name": "org.deepin.service.manager",
+            "name": "org.lingmo.service.manager",
             "filter": "",
             "exec": "/usr/bin/deepin-service-manager",
             "logType": "journal"

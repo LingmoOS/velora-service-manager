@@ -1,0 +1,11 @@
+{
+    "name": "org.lingmo.service.manager",
+    "group": "dde",
+    "submodules": [
+        {
+            "name": "org.lingmo.service.manager",
+            "exec": "org.lingmo.service.manager.sh"
+        }
+    ],
+    "version": "V1.0"
+}

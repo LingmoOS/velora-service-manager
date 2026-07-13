@@ -1,5 +1,5 @@
 {
-    "name": "org.deepin.service.manager1",
+    "name": "org.lingmo.service.manager1",
     "group": "core",
     "policyVersion": "1.0",
     "dependencies": [],
